@@ -94,13 +94,7 @@ Then, uncomment the line `coinmarketcap: COINMARKETCAP_API_KEY,` in `hardhat.con
 
 If you deploy to a testnet or mainnet, you can verify it if you get an [API Key](https://etherscan.io/myapikey) from Etherscan and set it as an environemnt variable named `ETHERSCAN_API_KEY`. You can pop it into your `.env` file as seen in the `.env.example`.
 
-In it's current state, if you have your api key set, it will auto verify kovan contracts!
-
-However, you can manual verify with:
-
-```
-yarn hardhat verify --constructor-args arguments.js DEPLOYED_CONTRACT_ADDRESS
-```
+In it's current state, if you have your api key set, it will auto verify rinkeby contracts!
 
 # Linting
 
